@@ -1,0 +1,17 @@
+{
+  "tests": "./ui-tests/*_test.js",
+  "timeout": 10000,
+  "output": "./ui-tests/output",
+  "helpers": {
+    "WebDriverIO": {
+      "url": "http://localhost:3000",
+      "browser": "phantomjs"
+    }
+  },
+  "include": {
+    "I": "./ui-tests/helpers"
+  },
+  "bootstrap": false,
+  "mocha": {},
+  "name": "test-codeceptjs"
+}
