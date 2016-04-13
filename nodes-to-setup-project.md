@@ -68,27 +68,37 @@ create new repository on github.com
 follow instructions provided - ie:
 #### create a new repository on the command line
 
-echo "# test-codeceptjs" >> README.md
-git init
-git add .
-git config --global user.email "you@example.com"
-git config --global user.name "Your Name"
-git commit -m "meaningful commit comment"
+`echo "# test-codeceptjs" >> README.md`
+
+`git init`
+
+`git add .`
+
+`git config --global user.email "you@example.com"`
+
+`git config --global user.name "Your Name"`
+
+`git commit -m "meaningful commit comment"`
+
 
 #### made another change
-git add .
-git commit -m "less meaningful commit comment"
+`git add .`
+
+`git commit -m "less meaningful commit comment"`
 
 #### and another change
-git add .
-git commit -m "less meaningful commit comment"
+`git add .`
 
-git rebase -i HEAD~3 //to rebase the number of commits into 1.
+`git commit -m "less meaningful commit comment"`
 
-git remote add origin https://github.com/diarmaidm/test-codeceptjs.git
-git push -u origin master
+`git rebase -i HEAD~3` //to rebase the number of commits into 1.
+
+`git remote add origin https://github.com/diarmaidm/test-codeceptjs.git`
+
+`git push -u origin master`
 
 or push an existing repository from the command line
 
-git remote add origin https://github.com/diarmaidm/test-codeceptjs.git
-git push -u origin master
+`git remote add origin https://github.com/diarmaidm/test-codeceptjs.git`
+
+`git push -u origin master`
