@@ -51,10 +51,14 @@ Please install dependent packages globally: [sudo] npm install -g webdriverio
 get the phantom installer:
 download phantonjs http://phantomjs.org/download.html
 
-sudo tar xjf phantomjs-2.1.1-linux-x86_64.tar.bz2
-sudo ln -s /usr/local/share/phantomjs-2.1.1-linux-x86_64/bin/phantomjs /usr/local/share/phantomjs
-sudo ln -s /usr/local/share/phantomjs-2.1.1-linux-x86_64/bin/phantomjs /usr/local/bin/phantomjs
-sudo ln -s /usr/local/share/phantomjs-2.1.1-linux-x86_64/bin/phantomjs /usr/bin/phantomjs
+`sudo tar xjf phantomjs-2.1.1-linux-x86_64.tar.bz2`
+
+`sudo ln -s /usr/local/share/phantomjs-2.1.1-linux-x86_64/bin/phantomjs /usr/local/share/phantomjs`
+
+`sudo ln -s /usr/local/share/phantomjs-2.1.1-linux-x86_64/bin/phantomjs /usr/local/bin/phantomjs`
+
+`sudo ln -s /usr/local/share/phantomjs-2.1.1-linux-x86_64/bin/phantomjs /usr/bin/phantomjs`
+
 **replace phantomjs-2.1.1-linux-x86_64 with the version you want to use**
 
 run 
